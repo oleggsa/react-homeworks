@@ -1,9 +1,12 @@
 import './App.css';
+import {ButtonToolbar} from "react-bootstrap";
+import BtnGroup from "./components/BtnGroup";
 // import Card from "./components/Card";
 // import Definitions from "./components/Definitions";
-import Progress from "./components/Progress";
-import Alert from "./components/Alert";
-import ListGroup from "./components/ListGroup";
+// import Progress from "./components/Progress";
+// import Alert from "./components/Alert";
+// import ListGroup from "./components/ListGroup";
+
 
 function App() {
   // const definitions = [
@@ -17,15 +20,14 @@ function App() {
       {/*<Card text="text body a title absent"/>*/}
       {/*<Card title='Title texta' text="text body a vishe title"/>*/}
       {/*<Definitions data={definitions}/>*/}
-      <Progress percentage="60"/>
-      <Alert type="success" text="Kek is kek not KeK but kEk"/>
-      <ListGroup>
-        <p>Item 1</p>
-        <p>Item 2</p>
-        <p>Item 3</p>
-        <p>Item 4</p>
-        <p>Item 5</p>
-      </ListGroup>
+      {/*<Progress percentage="60"/>*/}
+      {/*<Alert type="success" text="Kek is kek not KeK but kEk"/>*/}
+      {/*<ListGroup>*/}
+      {/*  <p>Item 1</p>*/}
+      {/*  <p>Item 2</p>*/}
+      {/*  <p>Item 3</p>*/}
+      {/*</ListGroup>*/}
+      <BtnGroup/>
     </>
   );
 }
