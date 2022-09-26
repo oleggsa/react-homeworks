@@ -3,6 +3,7 @@ import './App.css';
 // import Definitions from "./components/Definitions";
 import Progress from "./components/Progress";
 import Alert from "./components/Alert";
+import ListGroup from "./components/ListGroup";
 
 function App() {
   // const definitions = [
@@ -18,6 +19,13 @@ function App() {
       {/*<Definitions data={definitions}/>*/}
       <Progress percentage="60"/>
       <Alert type="success" text="Kek is kek not KeK but kEk"/>
+      <ListGroup>
+        <p>Item 1</p>
+        <p>Item 2</p>
+        <p>Item 3</p>
+        <p>Item 4</p>
+        <p>Item 5</p>
+      </ListGroup>
     </>
   );
 }
