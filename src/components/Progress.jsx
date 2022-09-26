@@ -1,13 +1,11 @@
 import React from 'react';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
-
-const Progress = () => {
+const Progress = ({percentage}) => {
   return (
-    <div>
-      <div className="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
-           aria-label="progressbar">
-      </div>
-    </div>
+    <>
+      <ProgressBar now={percentage} />
+    </>
   );
 };
 

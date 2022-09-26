@@ -1,7 +1,8 @@
 import './App.css';
 // import Card from "./components/Card";
 // import Definitions from "./components/Definitions";
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import Progress from "./components/Progress";
+import Alert from "./components/Alert";
 
 function App() {
   // const definitions = [
@@ -15,7 +16,8 @@ function App() {
       {/*<Card text="text body a title absent"/>*/}
       {/*<Card title='Title texta' text="text body a vishe title"/>*/}
       {/*<Definitions data={definitions}/>*/}
-      <ProgressBar now={30} />
+      <Progress percentage="60"/>
+      <Alert type="success" text="Kek is kek not KeK but kEk"/>
     </>
   );
 }
